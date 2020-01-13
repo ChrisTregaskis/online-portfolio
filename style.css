@@ -57,11 +57,25 @@ header {
 .header-info {
     position: absolute;
     width: 1140px;
-    top: 80%;
+    top: 95%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #feffff;
     overflow: auto;
 }
 
+.profile-pic {
+    display: inline-block;
+}
 
+
+.profile-pic img {
+    width: 20%;
+    height: auto;
+}
+
+summary {
+    width: 78%;
+    height: auto;
+    float: right;
+}
