@@ -23,7 +23,7 @@ color: #feffff;
 html,
 body {
     background-color: #fff;
-    color: #555;
+    color: #17252a;
     font-family: 'Muli', sans-serif;
     font-weight: 300;
     font-size: 20px;
@@ -40,6 +40,11 @@ body {
     margin: 0 auto;
 }
 
+ul, a {
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 
 
 /*-----------------------------------*/
@@ -54,13 +59,55 @@ header {
     background-attachment: fixed;
 }
 
+/*---- NAV BAR ----*/
+
+nav {
+    height: 40px;
+}
+
+.nav-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.nav-container ul {
+    padding: 10px;
+    overflow: auto
+}
+
+nav a {
+    width: 33%;
+    text-align: center;
+    color: #f7f9fb;
+    font-size: 90%;
+    float: left;
+}
+
+nav a:link,
+nav a:visited {
+    padding: 2px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition-delay: border-bottom 0.4s;
+    transition-delay: font-size 0.4s;
+    transition: border-bottom 0.4s;
+}
+
+nav a:hover {
+    border-bottom: 1px solid #f7f9fb;
+    font-size: 100%;
+    transition: font-size 0.4s;
+}
+
+
+/*---- HEADER INFO ----*/
+
 .header-info {
-    position: absolute;
-    width: 1140px;
-    top: 95%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #feffff;
+    max-width: 900px;
+    top: 300px;
+    color: #f7f9fb;
     overflow: auto;
 }
 
