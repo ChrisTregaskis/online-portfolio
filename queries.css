@@ -19,11 +19,11 @@
 @media screen and (max-width: 768px) {
     
     /*-- HEADER --*/
-    summary ul {
+    .summary ul {
         visibility: hidden;
     }
     
-    summary button {
+    .summary button {
         width: 100%;
     }
     
@@ -44,11 +44,11 @@
 @media screen  and (max-width: 480px) {
     
     /*-- HEADER --*/
-    summary ul {
+    .summary ul {
         visibility: hidden;
     }
     
-    summary button {
+    .summary button {
         width: 50%;
     }
     
