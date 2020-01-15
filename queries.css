@@ -15,9 +15,6 @@
 /*--- MOBILE MAX-WIDTH 480 ----*/
 
 @media screen (max-width: 480px) {
-    nav a {
-        
-    }
 
     summary ul {
         visibility: hidden;
