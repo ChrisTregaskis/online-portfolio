@@ -5,7 +5,7 @@ USING "30 Close to Nature & sunset orange"
 color: #17252a;
 color: #e95950;
 color: #31708e;
-color: #5085a5;
+color: #5085a5; 
 color: #8fc1e3;
 color: #f7f9fb;
 color: #feffff;
@@ -21,13 +21,16 @@ color: #feffff;
     box-sizing: border-box;
 }
 
-html,
 body {
     background-color: #fff;
     color: #17252a;
     font-family: 'Muli', sans-serif;
     font-weight: 300;
     font-size: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 
@@ -46,8 +49,20 @@ ul, a {
     text-transform: uppercase;
 }
 
+h1 {
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
 h3, h4 {
     text-transform: uppercase;
+}
+
+section {
+    text-align: center;
+    padding-top: 20px;
 }
 
 /*-----------------------------------*/
@@ -130,37 +145,37 @@ nav a:hover {
     margin-right: 10px;
 }
 
-summary {
+.summary {
     width: 60%;
     float: left;
     overflow: auto;
 }
 
-summary button {
+.summary button {
     float: left;
     width: 30%;
 }
 
-summary ul li {
+.summary ul li {
     float: left;
     width: 8%;
 }
 
-summary h3 {
+.summary h3 {
     font-size: 100%;
     font-weight: 200;
     letter-spacing: 1px;
     margin: 5px 0;
 }
 
-summary h4 {
+.summary h4 {
     font-size: 70%;
     letter-spacing: 4px;
     color: #8fc1e3;
     margin-bottom: 5px;
 }
 
-summary button {
+.summary button {
     font-size: 90%;
     color: #f7f9fb;
     padding: 8px 15px;
@@ -169,7 +184,7 @@ summary button {
     margin-right: 5px;
 }
 
-summary button:hover {
+.summary button:hover {
     font-size: 95%;
     letter-spacing: 0.3px;
     border-width: 1px;
@@ -177,14 +192,14 @@ summary button:hover {
     transition: letter-spacing 0.4s;
 }
 
-summary ion-icon {
+.summary ion-icon {
     font-size: 40px;
     margin-left: 5px;
     color: #f7f9fb;
     
 }
 
-summary ion-icon:hover {
+.summary ion-icon:hover {
     font-size: 40.5px;
     color: #e95950;
     transition: color 0.4s;
@@ -194,3 +209,75 @@ summary ion-icon:hover {
 /*-----------------------------------*/
 /* PROJECTS */ 
 /*-----------------------------------*/
+
+.container {
+    overflow: auto;
+}
+
+.surround {
+    float: left;
+    width: 33%;
+    padding: 20px;
+}
+
+.project-img {
+    background-size: cover;
+    background-position: center;
+    border-radius: 3px;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+    transition: transform .5s ease;
+}
+
+.project-img:hover {
+    transform: scale(1.05);
+}
+
+article h3,
+article p,
+article .main-project-btns {
+    margin: 20px 0;
+}
+
+article p {
+    width: 300px;
+    margin: 0 auto;
+}
+
+article button {
+    font-size: 90%;
+    color: #17252a;
+    padding: 8px 15px;
+    border-radius: 3px;
+    margin: 0 20px;
+}
+
+article button:hover {
+    font-size: 95%;
+    letter-spacing: 0.6px;
+    border-width: 1px;
+    border-color: #e95950;
+    transition: letter-spacing 0.4s;
+}
+
+.project1 {
+    background-image: url(imgs/project-1.jpg);
+}
+
+.project2 {
+    background-image: url(imgs/project-2.jpg);
+}
+
+.project3 {
+    background-image: url(imgs/project-3.jpg);
+}
+
+
+/*-----------------------------------*/
+/* ABOUT ME */ 
+/*-----------------------------------*/
+
+
+
