@@ -216,7 +216,59 @@ summary ion-icon:hover {
     padding: 20px;
 }
 
+.project-img {
+    background-size: cover;
+    background-position: center;
+    border-radius: 3px;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+    transition: transform .5s ease;
+}
 
+.project-img:hover {
+    transform: scale(1.05);
+}
+
+article h3,
+article p,
+article .main-project-btns {
+    margin: 20px 0;
+}
+
+article button {
+    font-size: 90%;
+    color: #17252a;
+    padding: 8px 15px;
+    border-radius: 3px;
+    margin-right: 20px;
+}
+
+article button:hover {
+    font-size: 95%;
+    letter-spacing: 0.6px;
+    border-width: 1px;
+    border-color: #e95950;
+    transition: letter-spacing 0.4s;
+}
+
+.project1 {
+    background-image: url(imgs/project-1.jpg);
+}
+
+.project2 {
+    background-image: url(imgs/project-2.jpg);
+}
+
+.project3 {
+    background-image: url(imgs/project-3.jpg);
+}
+
+
+/*-----------------------------------*/
+/* ABOUT ME */ 
+/*-----------------------------------*/
 
 
 
