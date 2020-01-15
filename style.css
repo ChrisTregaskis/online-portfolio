@@ -145,37 +145,37 @@ nav a:hover {
     margin-right: 10px;
 }
 
-summary {
+.summary {
     width: 60%;
     float: left;
     overflow: auto;
 }
 
-summary button {
+.summary button {
     float: left;
     width: 30%;
 }
 
-summary ul li {
+.summary ul li {
     float: left;
     width: 8%;
 }
 
-summary h3 {
+.summary h3 {
     font-size: 100%;
     font-weight: 200;
     letter-spacing: 1px;
     margin: 5px 0;
 }
 
-summary h4 {
+.summary h4 {
     font-size: 70%;
     letter-spacing: 4px;
     color: #8fc1e3;
     margin-bottom: 5px;
 }
 
-summary button {
+.summary button {
     font-size: 90%;
     color: #f7f9fb;
     padding: 8px 15px;
@@ -184,7 +184,7 @@ summary button {
     margin-right: 5px;
 }
 
-summary button:hover {
+.summary button:hover {
     font-size: 95%;
     letter-spacing: 0.3px;
     border-width: 1px;
@@ -192,14 +192,14 @@ summary button:hover {
     transition: letter-spacing 0.4s;
 }
 
-summary ion-icon {
+.summary ion-icon {
     font-size: 40px;
     margin-left: 5px;
     color: #f7f9fb;
     
 }
 
-summary ion-icon:hover {
+.summary ion-icon:hover {
     font-size: 40.5px;
     color: #e95950;
     transition: color 0.4s;
