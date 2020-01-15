@@ -1,27 +1,60 @@
-/*---- TABLETS MAX-WIDTH 768 ----*/
-
-@media screen and (max-width: 768px) {
+/*----== DESKTOP MAX-WIDTH 960 ==----*/
+@media screen and (max-width: 960px) {
     
-    summary ul {
-        visibility: hidden;
+    /*-- MAIN PROJECTS --*/
+    .article1,
+    .article2 {
+        width: 50%;
     }
     
-    summary button {
-        width: 50%;
-    }     
+    .article3 {
+        width: 100%;
+        margin: 0 auto;
+    }
+
 }
 
 
-/*--- MOBILE MAX-WIDTH 480 ----*/
+/*----== TABLETS MAX-WIDTH 768 ==----*/
+@media screen and (max-width: 768px) {
+    
+    /*-- HEADER --*/
+    summary ul {
+        visibility: hidden;
+    }
+    
+    summary button {
+        width: 100%;
+    }
+    
+    /*-- MAIN PROJECTS --*/
+    .surround {
+        width: 100%;
+    }
+    
+    h1 {
+        font-size: 126%;
+    }
+}
 
-@media screen (max-width: 480px) {
 
+
+/*---== MOBILE MAX-WIDTH 480 ==----*/
+
+@media screen  and (max-width: 480px) {
+    
+    /*-- HEADER --*/
     summary ul {
         visibility: hidden;
     }
     
     summary button {
         width: 50%;
+    }
+    
+    /*-- MAIN PROJECTS --*/
+    .surround {
+        width: 100%;
     }
 }
 
