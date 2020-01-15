@@ -281,6 +281,7 @@ article button:hover {
 
 #about-me {
     margin-top: 50px;
+    padding-bottom: 1px;
     background-color: #f7f9fb;
 }
 
@@ -308,9 +309,10 @@ span {
     font-weight: bold;
 }
 
-.container {
+#about-me .container {
     max-width: 1140px;
     margin: 0 auto;
+    overflow: visible;
 }
 
 .about-me-pic {
@@ -320,23 +322,25 @@ span {
     border-radius: 8px;
     width: 350px;
     height: 500px;
-    box-shadow: 40px 30px #8fc1e3;
-/*
+    box-shadow: 40px 30px #31708e;
+    float: left;
     position: absolute;
-    z-index: -1;
-*/
+    left: -80px;
+    top: -62px;
 }
 
 .about-me-text-box {
     max-width: 1100px;
-    height: 550px;
-    background-color: #feffff;
+    height: 520px;
+    background-color: #efefef;
     border-radius: 8px;
+    position: relative;
+    margin: 80px 0 80px 80px;
 }
 
 .about-me-text {
     width: 500px;
     height: auto;
     padding-top: 100px;
-    margin-left: 450px;
+    margin-left: 380px;
 }
