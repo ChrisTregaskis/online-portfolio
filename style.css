@@ -279,5 +279,64 @@ article button:hover {
 /* ABOUT ME */ 
 /*-----------------------------------*/
 
+#about-me {
+    margin-top: 50px;
+    background-color: #f7f9fb;
+}
 
+.about-me-text h2,
+p {
+    text-align: left;
+    margin: 15px 15px 0 0;
+}
 
+p {
+    font-size: 90%;
+}
+
+.about-me-text h2 {
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+span {
+    color: #e95950;
+    font-size: 110%;
+}
+
+.about-me-FULL {
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about-me-pic {
+    background-image: url(imgs/aboutMeEdit-img.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    width: 350px;
+    height: 500px;
+    box-shadow: 40px 30px #8fc1e3;
+/*
+    position: absolute;
+    z-index: -1;
+*/
+}
+
+.about-me-text-box {
+    max-width: 950px;
+    height: 550px;
+    background-color: #feffff;
+    border-radius: 8px;
+}
+
+.about-me-text {
+    width: 500px;
+    height: auto;
+    float: right;
+    margin-top: 100px;
+}
