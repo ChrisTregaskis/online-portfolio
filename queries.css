@@ -35,6 +35,17 @@
     h1 {
         font-size: 126%;
     }
+    
+    /*-- CONTACT ME --*/
+    .contact-info p {
+        font-size: 80%;
+        letter-spacing: 8px;
+    }
+    
+    .contact-info ion-icon {
+        font-size: 40px;
+    }
+    
 }
 
 
@@ -56,6 +67,7 @@
     .surround {
         width: 100%;
     }
+    
 }
 
 
