@@ -110,8 +110,6 @@ nav a:visited {
     text-decoration: none;
     text-transform: uppercase;
     border-bottom: 2px solid transparent;
-    transition-delay: border-bottom 0.4s;
-    transition-delay: font-size 0.4s;
     transition: border-bottom 0.4s;
 }
 
