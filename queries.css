@@ -11,6 +11,34 @@
         width: 100%;
         margin: 0 auto;
     }
+    
+    /*-- ABOUT ME --*/
+    .about-me-text-box {
+        max-width: 960px;
+        margin: 0;
+        height: 580px;
+    }
+    
+    .about-me-pic {
+        width: 200px;
+        height: 200px;
+        box-shadow: 20px 10px #31708e;
+        border-radius: 50%;
+        position: relative;
+        left: 30px;
+    }
+    
+    .about-me-text {
+        width: 80%;
+        margin: 80px auto;
+        padding-top: 130px; 
+    }
+    
+    .about-me-text h2,
+    .about-me-text p {
+        text-align: right;
+        margin: 15px 0;
+    }
 
 }
 
@@ -34,6 +62,11 @@
     
     h1 {
         font-size: 126%;
+    }
+    
+    /*-- ABOUT ME --*/
+    .about-me-text-box {
+        height: 580px;
     }
 }
 
