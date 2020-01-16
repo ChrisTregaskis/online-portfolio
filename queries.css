@@ -64,10 +64,17 @@
         font-size: 126%;
     }
     
-    /*-- ABOUT ME --*/
-    .about-me-text-box {
-        height: 580px;
+
+    /*-- CONTACT ME --*/
+    .contact-info p {
+        font-size: 80%;
+        letter-spacing: 8px;
     }
+    
+    .contact-info ion-icon {
+        font-size: 40px;
+    }
+  
 }
 
 
@@ -89,6 +96,7 @@
     .surround {
         width: 100%;
     }
+    
 }
 
 
