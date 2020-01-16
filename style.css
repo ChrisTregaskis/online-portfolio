@@ -402,4 +402,54 @@ span {
 }
 
 
+/*-----------------------------------*/
+/* FOOTER */ 
+/*-----------------------------------*/
+
+
+footer {
+    padding: 10px;
+    background-color: #feffff;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.copyright-border {
+    border-top: .3px solid #F7F9FB;
+}
+
+.copyright-border p {
+    margin-top: 15px;
+    font-size: 58%;
+}
+
+footer button {
+    font-size: 80%;
+    color: #17252a;
+    padding: 8px 15px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    border-color: #fff;
+}
+
+footer button:hover {
+    border-width: 1.2px;
+    border-color: #8fc1e3;
+    transition: border-color 0.4s;
+}
+
+
+
+
+
+
+
+
+
+
+
 
