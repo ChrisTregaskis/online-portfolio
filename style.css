@@ -1,0 +1,450 @@
+/*------COLOUR PALET------*/
+
+/*
+USING "30 Close to Nature & sunset orange"
+color: #17252a;
+color: #e95950;
+color: #31708e;
+color: #5085a5; 
+color: #8fc1e3;
+color: #f7f9fb;
+color: #feffff;
+*/
+
+/*-----------------------------------*/
+/* Basic Setup */ 
+/*-----------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    color: #17252a;
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*-----------------------------------*/
+/* REUSABLE COMPONENTS */ 
+/*-----------------------------------*/
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+ul, a {
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+h1 {
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+h3, h4 {
+    text-transform: uppercase;
+}
+
+section {
+    text-align: center;
+    padding-top: 20px;
+}
+
+/*-----------------------------------*/
+/* HEADER */ 
+/*-----------------------------------*/
+
+header {
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 92%,rgba(0,0,0,0.6) 100%,rgba(0,0,0,0.99) 100%), url(imgs/header-img3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+/*---- NAV BAR ----*/
+
+nav {
+    height: 40px;
+}
+
+.nav-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.nav-container ul {
+    padding: 10px;
+    overflow: auto
+}
+
+nav a {
+    width: 33%;
+    text-align: center;
+    color: #f7f9fb;
+    font-size: 90%;
+    letter-spacing: 5px;
+    float: left;
+}
+
+nav a:link,
+nav a:visited {
+    padding: 2px 0;
+    color: #f7f9fb;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.4s;
+}
+
+nav a:hover {
+    border-bottom: 1px solid #e95950;
+    font-size: 100%;
+    transition: font-size 0.4s;
+    color: #f7f9fb;
+}
+
+
+/*---- HEADER INFO ----*/
+
+.header-info {
+    position: absolute;
+    width: 100%;
+    bottom: 2%;
+    margin-left: 8%;
+    color: #f7f9fb;
+    overflow: auto;
+}
+
+.profile-pic {
+    background-image: url(imgs/chris-headshot.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 3px;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.summary {
+    width: 60%;
+    float: left;
+    overflow: auto;
+}
+
+.summary button {
+    float: left;
+    width: 30%;
+    font-size: 90%;
+    color: #f7f9fb;
+    padding: 8px 15px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.summary ul li {
+    float: left;
+    width: 8%;
+}
+
+.summary h3 {
+    font-size: 100%;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin: 5px 0;
+}
+
+.summary h4 {
+    font-size: 70%;
+    letter-spacing: 4px;
+    color: #8fc1e3;
+    margin-bottom: 5px;
+}
+
+.summary button:hover {
+    font-size: 95%;
+    letter-spacing: 0.3px;
+    border-width: 1px;
+    border-color: #e95950;
+    transition: letter-spacing 0.4s;
+}
+
+.summary ion-icon {
+    font-size: 40px;
+    margin-left: 5px;
+    color: #f7f9fb;
+    
+}
+
+.summary ion-icon:hover {
+    font-size: 40.5px;
+    color: #e95950;
+    transition: color 0.4s;
+}
+
+
+/*-----------------------------------*/
+/* PROJECTS */ 
+/*-----------------------------------*/
+
+.container {
+    overflow: auto;
+}
+
+.surround {
+    float: left;
+    width: 33%;
+    padding: 20px;
+}
+
+.project-img {
+    background-size: cover;
+    background-position: center;
+    border-radius: 3px;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+    transition: transform .5s ease;
+}
+
+.project-img:hover {
+    transform: scale(1.05);
+}
+
+article h3,
+article p,
+article .main-project-btns {
+    margin: 20px 0;
+}
+
+article p {
+    width: 300px;
+    margin: 0 auto;
+}
+
+article button {
+    font-size: 90%;
+    color: #17252a;
+    padding: 8px 15px;
+    border-radius: 3px;
+    margin: 0 20px;
+}
+
+article button:hover {
+    font-size: 95%;
+    letter-spacing: 0.6px;
+    border-width: 1px;
+    border-color: #e95950;
+    transition: letter-spacing 0.4s;
+}
+
+.project1 {
+    background-image: url(imgs/project-1.jpg);
+}
+
+.project2 {
+    background-image: url(imgs/project-2.jpg);
+}
+
+.project3 {
+    background-image: url(imgs/project-3.jpg);
+}
+
+
+/*-----------------------------------*/
+/* ABOUT ME */ 
+/*-----------------------------------*/
+
+#about-me {
+    margin-top: 50px;
+    padding-bottom: 1px;
+    background-color: #f7f9fb;
+}
+
+.about-me-text h2,
+.about-me-text p {
+    text-align: left;
+    margin: 15px 15px 0 0;
+}
+
+.about-me-text p {
+    font-size: 90%;
+}
+
+.about-me-text h2 {
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+span {
+    color: #e95950;
+    font-size: 110%;
+}
+
+.about-me-FULL {
+    font-weight: bold;
+}
+
+#about-me .container {
+    max-width: 1140px;
+    margin: 0 auto;
+    overflow: visible;
+}
+
+.about-me-pic {
+    background-image: url(imgs/aboutMeEdit-img.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    width: 350px;
+    height: 500px;
+    box-shadow: 40px 30px #31708e;
+    float: left;
+    position: absolute;
+    left: -80px;
+    top: -62px;
+}
+
+.about-me-text-box {
+    max-width: 1100px;
+    height: 520px;
+    background-color: #efefef;
+    border-radius: 8px;
+    position: relative;
+    margin: 80px 0 80px 80px;
+}
+
+.about-me-text {
+    width: 500px;
+    height: auto;
+    padding-top: 100px;
+    margin-left: 380px;
+}
+
+/*-----------------------------------*/
+/* CONTACT ME */ 
+/*-----------------------------------*/
+
+
+.contact-info {
+    overflow: auto;
+}
+
+.contact-info ul li {
+    float: left;
+    width: 25%;
+    margin: 0 auto;
+}
+
+.contact-info ion-icon {
+    font-size: 48px;
+    margin-left: 5px;
+    color: #000;
+    
+}
+
+.contact-info ion-icon:hover {
+    font-size: 49.5px;
+    color: #e95950;
+    transition: color 0.4s;
+}
+
+.contact-social-links {
+    height: 80px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-info h1,
+.contact-info p {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.contact-info p {
+    letter-spacing: 12px;
+}
+
+.map-box {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 100px;
+}
+
+.map {
+    width: 100%;
+    height: 400px;
+    border: 0;
+}
+
+
+/*-----------------------------------*/
+/* FOOTER */ 
+/*-----------------------------------*/
+
+
+footer {
+    padding: 10px;
+    background-color: #feffff;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.copyright-border {
+    border-top: .3px solid #F7F9FB;
+}
+
+.copyright-border p {
+    margin-top: 15px;
+    font-size: 58%;
+}
+
+footer button {
+    font-size: 80%;
+    color: #17252a;
+    padding: 8px 15px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    border-color: #fff;
+}
+
+footer button:hover {
+    border-width: 1.2px;
+    border-color: #8fc1e3;
+    transition: border-color 0.4s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
