@@ -10,6 +10,9 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" type="text/css" href="queries.css">
         <link href="https://fonts.googleapis.com/css?family=Muli:300,400,400i,700&display=swap" rel="stylesheet">
+
+        <script defer src="jquery.js"></script>
+        <script defer src="index.js"></script>
     
     </head>
 
@@ -18,14 +21,28 @@
         <header id="header"> 
             <!--==== NAV ====-->
             <nav>
-                <div class="row nav-container">
-                    <ul>
-                        <li><a href="#about-me">about</a></li>
-                        <li><a href="#main-projects">portfolio</a></li>
-                        <li><a href="#contact-me">contact</a></li>
-                    </ul>
+                <li><a id="open-menu" href="#"><ion-icon name="menu"></ion-icon></a></li>
+                <li><a id="close-menu" href="#"><ion-icon name="close-circle"></ion-icon></a></li>
+                <div class="menu-container">
+
+                    <div class="burger-nav-menu">
+                        <ul>
+                            <li><a href="#about-me">about</a></li>
+                            <li><a href="#main-projects">portfolio</a></li>
+                            <li><a href="#contact-me">contact</a></li>
+                        </ul>
+                    </div>
                 </div>
+
+<!--                <div class="row nav-container">-->
+<!--                    <ul>-->
+<!--                        <li><a href="#about-me">about</a></li>-->
+<!--                        <li><a href="#main-projects">portfolio</a></li>-->
+<!--                        <li><a href="#contact-me">contact</a></li>-->
+<!--                    </ul>-->
+<!--                </div>-->
             </nav>
+
             <!--==== HEADER PORTFOLIO INFO ====-->
             <div class="row header-info">
                 <!-- img in css -->
