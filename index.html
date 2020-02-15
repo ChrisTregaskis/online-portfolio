@@ -13,6 +13,7 @@
 
         <script defer src="jquery.js"></script>
         <script defer src="index.js"></script>
+        <script defer src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     
     </head>
 
@@ -21,11 +22,10 @@
         <header id="header"> 
             <!--==== NAV ====-->
             <nav>
-                <li><a id="open-menu" href="#"><ion-icon name="menu"></ion-icon></a></li>
-                <li><a id="close-menu" href="#"><ion-icon name="close-circle"></ion-icon></a></li>
-                <div class="menu-container">
-
-                    <div class="burger-nav-menu">
+                <div id="menu-container" class="menu-container">
+                    <li><a id="open-menu"><ion-icon name="menu"></ion-icon></a></li>
+                    <li><a id="close-menu"><ion-icon name="close-circle"></ion-icon></a></li>
+                    <div id="burger-nav-menu" class="burger-nav-menu">
                         <ul>
                             <li><a href="#about-me">about</a></li>
                             <li><a href="#main-projects">portfolio</a></li>
@@ -33,19 +33,10 @@
                         </ul>
                     </div>
                 </div>
-
-<!--                <div class="row nav-container">-->
-<!--                    <ul>-->
-<!--                        <li><a href="#about-me">about</a></li>-->
-<!--                        <li><a href="#main-projects">portfolio</a></li>-->
-<!--                        <li><a href="#contact-me">contact</a></li>-->
-<!--                    </ul>-->
-<!--                </div>-->
             </nav>
 
             <!--==== HEADER PORTFOLIO INFO ====-->
             <div class="row header-info">
-                <!-- img in css -->
                 <div class="profile-pic"></div>
                 <div class="summary">
                     <h3>Chris Tregaskis</h3>
@@ -72,7 +63,6 @@
                 <div class="container">
                     <div class="surround article1">
                         <article>
-                            <!-- img in css -->
                             <div class="project-img project1"></div>
                             <h3>Project 1</h3>
                             <p>SQL, JavaScript, HTML, CSS, JQuery, TypeScript, GoogleSearch</p>
@@ -84,7 +74,6 @@
                     </div>
                     <div class="surround article2">
                         <article>
-                            <!-- img in css -->
                             <div class="project-img project2"></div>
                             <h3>Project 2</h3>
                             <p>SQL, JavaScript, HTML, CSS, JQuery, TypeScript, GoogleSearch</p>
@@ -96,7 +85,6 @@
                     </div>
                     <div class="surround article3">
                         <article>
-                            <!-- img in css -->
                             <div class="project-img project3"></div>
                             <h3>Project 3</h3>
                             <p>SQL, JavaScript, HTML, CSS, JQuery, TypeScript, GoogleSearch</p>
@@ -171,7 +159,7 @@
         
         <!--==== SCRIPTS ====-->
         
-        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
         
     </body>
 
