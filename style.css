@@ -43,7 +43,8 @@ html {
     margin: 0 auto;
 }
 
-ul, a {
+ul, a,
+ul:visited, a:visited {
     list-style-type: none;
     text-decoration: none;
     text-transform: uppercase;
@@ -344,11 +345,12 @@ span {
     border-radius: 8px;
     width: 350px;
     height: 500px;
-    box-shadow: 40px 30px #31708e;
+    box-shadow: 40px 30px rgba(49, 112, 142, 0.4);
     float: left;
     position: absolute;
-    left: -80px;
-    top: -62px;
+    left: -20px;
+    top: 80px;
+    opacity: 0.2;
 }
 
 .about-me-text-box {
