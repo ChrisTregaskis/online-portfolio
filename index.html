@@ -10,6 +10,10 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" type="text/css" href="queries.css">
         <link href="https://fonts.googleapis.com/css?family=Muli:300,400,400i,700&display=swap" rel="stylesheet">
+
+        <script defer src="jquery.js"></script>
+        <script defer src="index.js"></script>
+        <script defer src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     
     </head>
 
@@ -18,17 +22,21 @@
         <header id="header"> 
             <!--==== NAV ====-->
             <nav>
-                <div class="row nav-container">
-                    <ul>
-                        <li><a href="#about-me">about</a></li>
-                        <li><a href="#main-projects">portfolio</a></li>
-                        <li><a href="#contact-me">contact</a></li>
-                    </ul>
+                <div id="menu-container" class="menu-container">
+                    <li><a id="open-menu"><ion-icon name="menu"></ion-icon></a></li>
+                    <li><a id="close-menu"><ion-icon name="close-circle"></ion-icon></a></li>
+                    <div id="burger-nav-menu" class="burger-nav-menu">
+                        <ul>
+                            <li><a href="#about-me">about</a></li>
+                            <li><a href="#main-projects">portfolio</a></li>
+                            <li><a href="#contact-me">contact</a></li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
+
             <!--==== HEADER PORTFOLIO INFO ====-->
             <div class="row header-info">
-                <!-- img in css -->
                 <div class="profile-pic"></div>
                 <div class="summary">
                     <h3>Chris Tregaskis</h3>
@@ -50,12 +58,11 @@
         <!--==== MAIN PROJECTS ====-->    
         <section id="main-projects">
             <div class="row">
-                <h1>Main { Projects }</h1>
+                <h1>Main Projects</h1>
             
                 <div class="container">
                     <div class="surround article1">
                         <article>
-                            <!-- img in css -->
                             <div class="project-img project1"></div>
                             <h3>Project 1</h3>
                             <p>SQL, JavaScript, HTML, CSS, JQuery, TypeScript, GoogleSearch</p>
@@ -67,7 +74,6 @@
                     </div>
                     <div class="surround article2">
                         <article>
-                            <!-- img in css -->
                             <div class="project-img project2"></div>
                             <h3>Project 2</h3>
                             <p>SQL, JavaScript, HTML, CSS, JQuery, TypeScript, GoogleSearch</p>
@@ -79,7 +85,6 @@
                     </div>
                     <div class="surround article3">
                         <article>
-                            <!-- img in css -->
                             <div class="project-img project3"></div>
                             <h3>Project 3</h3>
                             <p>SQL, JavaScript, HTML, CSS, JQuery, TypeScript, GoogleSearch</p>
@@ -154,7 +159,7 @@
         
         <!--==== SCRIPTS ====-->
         
-        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
         
     </body>
 
