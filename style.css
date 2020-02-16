@@ -180,11 +180,10 @@ nav a:hover {
 }
 
 .summary button:hover {
-    font-size: 95%;
-    letter-spacing: 0.3px;
     border-width: 1px;
     border-color: #e95950;
-    transition: letter-spacing 0.4s;
+    transition: border-color 0.6s;
+    cursor: pointer;
 }
 
 .summary ion-icon {
@@ -241,7 +240,8 @@ article p {
     margin: 0 auto;
 }
 
-article button {
+article button,
+article button:visited {
     font-size: 90%;
     color: #17252a;
     padding: 8px 15px;
@@ -249,16 +249,16 @@ article button {
     margin: 0 20px;
 }
 
-article button:hover {
-    font-size: 95%;
-    letter-spacing: 0.6px;
+article button:hover,
+article button:visited {
     border-width: 1px;
     border-color: #e95950;
-    transition: letter-spacing 0.4s;
+    transition: border-color 0.6s;
+    cursor: pointer;
 }
 
 .project1 {
-    background-image: url(imgs/project-1.jpg);
+    background-image: url(imgs/wine-collection-app.png);
 }
 
 .project2 {
