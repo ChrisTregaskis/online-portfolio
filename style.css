@@ -242,6 +242,21 @@ nav {
     padding: 20px;
 }
 
+.article1 {
+    margin: 130px 0 0 0;
+    opacity: 0.01;
+}
+
+.article2 {
+    margin: 200px 0 0 0;
+    opacity: 0.01;
+}
+
+.article3 {
+    margin: 230px 0 0 0;
+    opacity: 0.01;
+}
+
 .project-img {
     background-size: cover;
     background-position: center;
@@ -296,7 +311,6 @@ article button:visited {
 .project3 {
     background-image: url(imgs/project-3.jpg);
 }
-
 
 /*-----------------------------------*/
 /* ABOUT ME */ 
