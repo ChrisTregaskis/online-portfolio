@@ -1,4 +1,4 @@
-/*------COLOUR PALET------*/
+/*------COLOUR PALLET------*/
 
 /*
 USING "30 Close to Nature & sunset orange"
@@ -78,48 +78,75 @@ header {
     background-attachment: fixed;
 }
 
-/*---- NAV BAR ----*/
+/*---- NAV MENU BAR ----*/
 
 nav {
-    height: 40px;
+    height: 50px;
+    overflow: auto;
 }
 
-.nav-container {
-    max-width: 900px;
-    margin: 0 auto;
+.menu-container {
+    height: 50px;
+    width: 50px;
+    top: 5px;
+    right: 10px;
+    border-radius: 2%;
+    overflow: auto;
+    position: fixed;
 }
 
-.nav-container ul {
-    padding: 10px;
-    overflow: auto
-}
-
-nav a {
-    width: 33%;
-    text-align: center;
-    color: #f7f9fb;
-    font-size: 90%;
-    letter-spacing: 5px;
-    float: left;
-}
-
-nav a:link,
-nav a:visited {
-    padding: 2px 0;
-    color: #f7f9fb;
+.menu-container li {
+    list-style-type: none;
     text-decoration: none;
-    text-transform: uppercase;
-    border-bottom: 2px solid transparent;
-    transition: border-bottom 0.4s;
 }
 
-nav a:hover {
-    border-bottom: 1px solid #e95950;
-    font-size: 100%;
-    transition: font-size 0.4s;
+.menu-container ion-icon {
+    font-size: 50px;
+    float: right;
     color: #f7f9fb;
+    transition: color 0.4s;
+ }
+
+.menu-container ion-icon:hover {
+    color: #e95950;
+    transition: color 0.4s;
 }
 
+.burger-nav-menu {
+    float: right;
+    margin: 20px 20px;
+    text-align: right;
+    border-radius: 15%;
+}
+
+.burger-nav-menu a {
+    color: #f7f9fb;
+    font-size: 2rem;
+    letter-spacing: 5px;
+}
+
+.burger-nav-menu li {
+    margin-bottom: 5px;
+}
+
+.burger-nav-menu a:hover {
+    color: #e95950;
+    transition: color 0.4s;
+}
+
+.mCon-change-color {
+    z-index: 1;
+}
+
+.mCon-change-color ion-icon {
+    color: #17252a;
+}
+
+.bNavMenu-change-color {
+    background-color: #17252a;
+    border-radius: 2%;
+    width: 300px;
+}
 
 /*---- HEADER INFO ----*/
 
