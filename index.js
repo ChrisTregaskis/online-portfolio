@@ -30,4 +30,12 @@ $(document).ready(function() {
         });
     });
 
+    $(function() {
+        $(window).scroll(function (){
+            if($(this).scrollTop() > 1000) {
+                $(".about-me-pic").animate({top: '-62px', opacity: '1'}, "slow");
+            }
+        })
+    })
+
 });

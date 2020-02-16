@@ -22,7 +22,7 @@
     .about-me-pic {
         width: 200px;
         height: 200px;
-        box-shadow: 20px 10px #31708e;
+        box-shadow: 20px 10px rgba(49, 112, 142, 0.4);
         border-radius: 50%;
         position: relative;
         left: 30px;
@@ -74,10 +74,12 @@
     .contact-info ion-icon {
         font-size: 40px;
     }
+
+    .summary-social button {
+        width: 150px;
+    }
   
 }
-
-
 
 /*---== MOBILE MAX-WIDTH 480 ==----*/
 
@@ -96,7 +98,24 @@
     .surround {
         width: 100%;
     }
-    
+
+    .about-me-text-box {
+        height: 600px;
+    }
+
+    .summary-social button {
+        width: 150px;
+    }
+
 }
 
+@media screen and (max-width: 412px) {
+    .about-me-text-box {
+        height: 720px;
+    }
+
+    .summary-social button {
+        display: none;
+    }
+}
 
