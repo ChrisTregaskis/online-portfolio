@@ -1,5 +1,4 @@
 /*------COLOUR PALLET------*/
-
 /*
 USING "30 Close to Nature & sunset orange"
 color: #17252a;
@@ -10,7 +9,6 @@ color: #8fc1e3;
 color: #f7f9fb;
 color: #feffff;
 */
-
 /*-----------------------------------*/
 /* Basic Setup */ 
 /*-----------------------------------*/
@@ -33,7 +31,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
 /*-----------------------------------*/
 /* REUSABLE COMPONENTS */ 
 /*-----------------------------------*/
@@ -44,7 +41,7 @@ html {
 }
 
 ul, a,
-ul:visited, a:visited {
+ul:active, a:active {
     list-style-type: none;
     text-decoration: none;
     text-transform: uppercase;
@@ -283,8 +280,7 @@ article p {
     margin: 0 auto;
 }
 
-article button,
-article button:visited {
+article button {
     font-size: 90%;
     color: #17252a;
     padding: 8px 15px;
@@ -292,8 +288,7 @@ article button:visited {
     margin: 0 20px;
 }
 
-article button:hover,
-article button:visited {
+article button:hover {
     border-width: 1px;
     border-color: #e95950;
     transition: border-color 0.6s;
@@ -387,7 +382,6 @@ span {
 /* CONTACT ME */ 
 /*-----------------------------------*/
 
-
 .contact-info {
     overflow: auto;
 }
@@ -439,11 +433,9 @@ span {
     border: 0;
 }
 
-
 /*-----------------------------------*/
 /* FOOTER */ 
 /*-----------------------------------*/
-
 
 footer {
     padding: 10px;
@@ -479,15 +471,3 @@ footer button:hover {
     border-color: #8fc1e3;
     transition: border-color 0.4s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
