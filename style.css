@@ -296,8 +296,7 @@ article a:hover {
     border-color: #e95950;
     color: #e95950;
     cursor: pointer;
-    background-color: rgba(0,0,0,0.1);
-    transition: border-color, background-color 0.6s;
+    transition: border-color 0.6s;
 }
 
 .project1 {
