@@ -294,8 +294,9 @@ article a {
 article a:hover {
     border-width: 1px;
     border-color: #e95950;
+    color: #e95950;
     cursor: pointer;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.1);
     transition: border-color, background-color 0.6s;
 }
 
