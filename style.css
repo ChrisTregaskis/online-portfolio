@@ -263,6 +263,7 @@ nav {
     margin: 0 auto;
     overflow: hidden;
     transition: transform .5s ease;
+    border: 1px solid rgba(0,0,0,0.2);
 }
 
 .project-img:hover {
@@ -304,7 +305,7 @@ article a:hover {
 }
 
 .project2 {
-    background-image: url(imgs/project-2.jpg);
+    background-image: url(imgs/pairs-game.png);
 }
 
 .project3 {
