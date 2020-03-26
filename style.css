@@ -250,9 +250,9 @@ nav {
 }
 
 .article3 {
-    margin: 230px 0 0 0;
-    opacity: 0.01;
-}
+     margin: 230px 0 0 0;
+     opacity: 0.01;
+ }
 
 .project-img {
     background-size: cover;
@@ -309,9 +309,8 @@ article a:hover {
 }
 
 .project3 {
-    background-image: url(imgs/login-click-game.png);
+    background-image: url(imgs/finance-calc.png);
 }
-
 /*-----------------------------------*/
 /* ABOUT ME */ 
 /*-----------------------------------*/

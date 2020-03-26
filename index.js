@@ -30,6 +30,7 @@ $(document).ready(function() {
         });
     });
 
+    //animate main projects in
     $(function(){
         $(window).scroll(function (){
             if($(this).scrollTop() > 320) {
